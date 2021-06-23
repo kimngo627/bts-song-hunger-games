@@ -70,7 +70,7 @@ public class HungerGamesMain {
             }
             else
             {
-                System.out.println(tourney.getCompetitor(tourney.getNumCompetitors()-1-n).getName()+" chose "+computer[comp-1]+". The winner is "+winner.getName())+".";
+                System.out.println(tourney.getCompetitor(tourney.getNumCompetitors()-1-n).getName()+" chose "+computer[comp-1]+". The winner is "+winner.getName()+".");
                 System.out.println();
             }    
         }
